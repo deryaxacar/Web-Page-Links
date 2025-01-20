@@ -1,0 +1,193 @@
+/*
+github : https://github.com/deryaxacar/Web-Page-Links
+*/   
+    
+    :root {
+        /* img */
+        --image-width: 140px;
+        --image-height: 140px;
+        /* font */
+        --font-family: Arial, sans-serif;
+        --font-size: 1em;
+        /* color */
+        --color-white: #fff;
+        --color-black: #000000;
+        --color-blue: #4ebefa;
+        /* soft color */
+        --color-soft-black: rgba(0, 0, 0, 0.6);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Video Codes*/
+    .hero-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .hero-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+    }
+
+    /* content Codes*/
+    .hero-container .content {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        color: var(--color-white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-container .content .logo {
+        width: var(--image-width);
+        height: var(--image-height);
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }
+
+    .hero-container .content h1 {
+        color: var(--color-white);
+        font-size: 1.9em;
+        font-weight: var(--font-weight);
+    }
+
+    .hero-container .content h2 {
+        color: var(--color-blue);
+        margin-top: 7px;
+        font-size: 1.5em;
+        font-weight: var(--font-weight);
+        margin-bottom: 6px;
+    }
+
+    /* Menu Codes */
+    .hero-container nav {
+        text-align: center;
+        margin-top: 20px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .hero-container nav button {
+        margin: 2px;
+        padding: 10px 15px;
+        font-size: var(--font-size);
+        cursor: pointer;
+        border: none;
+        border-radius: 0px;
+        background-color: var(--color-soft-black);
+        color: var(--color-white);
+        transition: 0.3s;
+    }
+  
+    .hero-container nav button:hover {
+        background-color: var(--color-black);
+        color: var(--color-blue);
+        transition: 0.3s;
+    }
+
+    /* sub buttons Codes */
+    .hero-container .sub-buttons {
+        margin-top: 30px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        position: relative;
+    }
+
+    /* buton Codes */
+    .hero-container .sub-buttons button {
+        background-color: var(--color-soft-black);
+        color: var(--color-white);
+        border: none;
+        border-radius: 10px;
+        width: 70vh;
+        padding: 16px;
+        font-size: var(--font-size);
+        margin: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .hero-container .sub-buttons button:hover {
+        background-color: var(--color-black);
+        color: var(--color-blue);
+        transition: 0.3s;
+    }
+
+    .hero-container nav .active {
+        background-color: var(--color-black);
+        color: var(--color-blue);
+    }
+
+    /* Footer Codes */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        background-color: var(--color-black);
+        margin-top: 0px;
+    }
+
+    footer p {
+        font-size: 13px;
+        color: var(--color-white);
+    }
+
+    footer a {
+        font-size: 13px;
+        color: var(--color-blue);
+        text-decoration: none;
+    }
+
+    /* Media Screen */
+    @media (max-width: 600px) {
+        .hero-container .content .logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        .hero-container .content h1 {
+            font-size: 1.5em;
+        }
+        .hero-container .content h2 {
+            font-size: 1.2em;
+        }
+
+        .hero-container nav button {
+            margin: 5px 3px;
+            padding: 8px 12px;
+            font-size: 0.9em;
+        }
+
+        .hero-container .sub-buttons button {
+            width: 80vw;
+            margin: 5px 0;
+        }
+    }
