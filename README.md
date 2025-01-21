@@ -1,2 +1,2 @@
 
-![GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHk5bXhhcmlyaWdnMTRqcTExbjg0dG81ZTcyOXN2c3kxdXZ0N3QzNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uAkIeLUWcxjPbrFo29/giphy.gif)
+![GIF](https://github.com/deryaxacar/Web-Page-Links/blob/master/web-page-g.gif)
