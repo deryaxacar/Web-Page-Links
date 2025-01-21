@@ -1,6 +1,5 @@
 ## Web-Page-Links
-
-Bu projede, GIF olduğu için kalite biraz düşük görünebilir. Daha yüksek kalitede deneyimlemek için aşağıdaki adımları uygulayabilirsiniz:
+---
 
 1. **Video dosyasını indirin.**
 2. **Projeyi (repo’yu) klonlayın veya indirin.**
