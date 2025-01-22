@@ -1,8 +1,9 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 video/*.mp4 filter=lfs diff=lfs merge=lfs -text
 
-*.png -text
-*.jpg -text
-*.jpeg -text
-*.gif -text
-*.svg -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
+
