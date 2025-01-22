@@ -2,7 +2,7 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 video/*.mp4 filter=lfs diff=lfs merge=lfs -text
 
-# Görüntü dosyaları için LFS
+# Görüntü dosyaları için 
 *.png -text
 *.jpg -text
 *.jpeg -text
