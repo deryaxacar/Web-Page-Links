@@ -1,18 +1,19 @@
-## Web-Page-Links
+## Web Page Links  
 ---
 
-1. **Video dosyasını indirin.**
-2. **Projeyi (repo’yu) klonlayın veya indirin.**
-3. **İndirdiğiniz videoyu** `video` klasörüne (veya proje içinde belirtilen hedef klasöre) yerleştirin.
-4. **`index.html` dosyasını açın** (tarayıcınızla çalıştırın).
+1. **Download the video file.**  
+2. **Clone or download the project (repository).**  
+3. **Place the downloaded video** into the `video` folder (or the target folder specified within the project).  
+4. **Open the `index.html` file** (run it in your browser).
 
----
-
-![img](https://github.com/deryaxacar/Web-Page-Links/blob/master/dddddddd.PNG)
 
 ---
 
-## Lisans
+![img](https://github.com/deryaxacar/Web-Page-Links/blob/master/web.PNG)
 
-Bu proje [MIT Lisansı](./LICENSE) ile lisanslanmıştır. Lisans içeriği aşağıdaki gibidir:
+---
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE). The license content is as follows:
 
